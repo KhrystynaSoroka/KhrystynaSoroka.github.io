@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 0 20px; 
+            box-sizing: border-box;
+        }
+        p {
+            font-size: 26px;
+            color: #4c4c6d;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .center {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; 
+            gap: 45px; 
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px 0; 
+            box-sizing: border-box;
+        }
+        .section {
+            width: 300px;
+            background: #4c4c6d;
+            color: #fff;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+        }
+        .h1 {
+            color: #fff;
+            text-align: center;
+            background: #4c4c6d;
+            padding: 10px;
+        }
+        .h2 {
+            color: #4c4c6d;
+            text-align: center;
+            background: #fff;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .h3 {
+            font-size: 16px;
+            color: #fff;
+            background: #4c4c6d;
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        button {
+            background-color: #fff;
+            color: #4c4c6d;
+            padding: 10px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            align-self: center;
+            width: 80%;
+        }
+        button:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <p>Вертикальне вирівнювання</p>
+    <div class="center">
+        <section class="section">
+            <div class="h1">
+                БУДУ РАДИЙ
+            </div>
+            <div class="h2">
+                ПІДПИСЦІ
+            </div>
+            <div class="h3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis consectetur.
+                <button>підписатися</button>
+            </div>
+        </section>
+        <section class="section">
+            <div class="h1">
+                БУДУ РАДИЙ
+            </div>
+            <div class="h2">
+                ЛАЙКУ
+            </div>
+            <div class="h3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis consectetur.
+                <button>лайк</button>
+            </div>
+        </section>
+        <section class="section">
+            <div class="h1">
+                БУДУ РАДИЙ
+            </div>
+            <div class="h2">
+                КОМЕНТАРІЮ
+            </div>
+            <div class="h3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis consectetur.
+                <button>коментувати</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
